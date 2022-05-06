@@ -1,5 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;;
+    background-color: black;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(55,55,55,.8);
+    align-items: center;
+   
 
+    .social-networks {
+        display: flex;
+        .icon{
+            padding-left: 30px;
+            
+        }
+        i{
+            color: white;
+        }
+        
+    }
+
+    .nav-bar {
+        display: flex;
+        padding: 15px;
+
+        .item-nav-bar{
+            color: white;
+            font-size: 16px;
+            text-decoration-line: none;
+            padding-right: 25px;
+            font-weight: 400;
+        }
+    
+    }
+
+}
+
+.about-me{
+    
+    height: 400px;
+    position: relative;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 88px;
+        color: white;
+    }
+    h2{
+        font-size: 20px;
+        color: white;
+    }
+    
+    .photo{
+        height: 248px;
+        width: 244px;
+        border-radius: 50%;
+        border: solid 10px white;
+        position: absolute;
+        top: 180px;
+    }
+}

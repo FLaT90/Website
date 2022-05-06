@@ -1,4 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  background-color: white;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(55, 55, 55, 0.8);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .social-networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .social-networks .icon {
+  padding-left: 30px;
+}
+
+header .social-networks i {
+  color: white;
+}
+
+header .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+}
+
+header .nav-bar .item-nav-bar {
+  color: white;
+  font-size: 16px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  padding-right: 25px;
+  font-weight: 400;
+}
+
+.about-me {
+  height: 400px;
+  position: relative;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info h1 {
+  font-size: 88px;
+  color: white;
+}
+
+.info h2 {
+  font-size: 20px;
+  color: white;
+}
+
+.info .photo {
+  height: 248px;
+  width: 244px;
+  border-radius: 50%;
+  border: solid 10px white;
+  position: absolute;
+  top: 180px;
 }
 /*# sourceMappingURL=style.css.map */
