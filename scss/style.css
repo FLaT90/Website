@@ -7,7 +7,6 @@
 
 body {
   font-family: 'Be Vietnam Pro', sans-serif;
-  background-color: black;
 }
 
 header {
@@ -54,8 +53,10 @@ header .nav-bar .item-nav-bar {
 }
 
 .about-me {
-  height: 400px;
-  position: relative;
+  height: 600px;
+  background-image: url("../img/new-york-city-at-night-3w4i009ogoesa632.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .info {
@@ -69,15 +70,19 @@ header .nav-bar .item-nav-bar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  padding-top: 195px;
 }
 
 .info h1 {
   font-size: 88px;
+  font-weight: 700;
   color: white;
 }
 
 .info h2 {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 700;
   color: white;
 }
 
@@ -87,6 +92,6 @@ header .nav-bar .item-nav-bar {
   border-radius: 50%;
   border: solid 10px white;
   position: absolute;
-  top: 180px;
+  top: 480px;
 }
 /*# sourceMappingURL=style.css.map */
