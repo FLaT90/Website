@@ -56,7 +56,7 @@ header{
     background-image: url("https://diegoamt.github.io/cali-bg.bb2763c6ffdd55faab3c.jpg");
     background-size: cover;
     background-attachment: fixed;
-    margin-bottom: 150px;
+    
 }
 
 .info{
@@ -79,14 +79,20 @@ h2{
     color: white;
 }
 
-.description{
+.description {
     
     background-color: rgba(55,55,55,.8);
     margin: 30px 150px 0px 150px;
     padding: 25px;
     border-radius: 50px;
     color: white;
+    
 }
+
+.text-description{
+    font-weight: 100;
+}
+
     
 .photo{
     height: 248px;
@@ -96,3 +102,171 @@ h2{
     position: absolute;
     top: 580px;
 }
+
+.skills{
+    display: flex;
+    border-bottom: solid 10px white;
+    
+}
+
+
+
+.card {
+    margin: 50px 100px 50px 100px;
+    background-color: rgba(55,55,55,.8);
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 15px grey;
+
+    
+}
+
+#section2{
+    padding-top: 30px;
+    border-top: solid 10px white;
+    background-image: url('../img/new-york-city-at-night-3w4i009ogoesa632.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.item-nav-bar:hover{
+
+    border-bottom: solid 10px white;
+}
+
+i:hover{
+    color:red;
+}
+
+.technologies{
+    align-items: center;
+    /* background-color: rgb(19, 19, 19); */
+    background-color: black;
+    height: 500px;  
+}
+
+#progreso1{
+    width: 100%;
+    border: 2px solid rgb(27, 27, 27);
+    box-shadow: 3px 3px 5px darkgray;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+}
+#progreso2{
+    width: 100%;
+    border: 2px solid rgb(27, 27, 27);
+    box-shadow: 3px 3px 5px darkgray;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+}
+#progreso3{
+    width: 100%;
+    border: 2px solid rgb(27, 27, 27);
+    box-shadow: 3px 3px 5px darkgray;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+}
+#progreso4{
+    width: 100%;
+    border: 2px solid rgb(27, 27, 27);
+    box-shadow: 3px 3px 5px darkgray;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+}
+              
+#barra1{
+    width: 0%;
+    height: 30px;
+    background-color: #04aa6d;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+#barra2{
+    width: 0%;
+    height: 30px;
+    background-color: #04aa6d;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+#barra3{
+    width: 0%;
+    height: 30px;
+    background-color: #04aa6d;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+#barra4{
+    width: 0%;
+    height: 30px;
+    background-color: #04aa6d;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+    
+#iniciar-carga {
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    font-weight: 900;
+    margin: 50px;
+    border-radius: 30px;
+}
+               
+
+#iniciar-carga:hover{
+    box-shadow: 3px 3px 5px darkgray;
+}
+
+#section3{
+    border-top: solid 5px white;
+}
+
+.block1 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.block2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fondo-espera{
+    width: 200px;
+    height: 200px;
+}
+.card-technologies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 250px;
+    color: white;
+    font-size: 20px;
+} 
